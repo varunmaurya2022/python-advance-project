@@ -1,0 +1,6 @@
+f=open("varunr1.txt",mode='x')
+f.write("who are you!")
+f=open("varunr1.txt",mode='r')
+data=f.read()
+print(data)
+f.close()

@@ -1,0 +1,8 @@
+f=open("student.txt",mode='r+')
+data=f.read()
+data=f.seek(0)
+data=f.write("who is he")
+print(f.seek(0))
+print(f.tell())
+print(f.read())
+print(data)
